@@ -1,0 +1,707 @@
+@media(max-width:576px) {
+    /* navbar */
+    .navBar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navTitle {
+        font-size: 12px;
+    }
+    /* intro */
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .namastey {
+        font-size: 15px;
+        text-align: center;
+    }
+    .myName {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about {
+        font-size: 12px;
+        text-align: center;
+        padding-right: 0%;
+    }
+    .dp {
+        width: 200px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+    .pic {
+        width: 300px;
+    }
+    /* projects */
+    .projectTitle {
+        font-size: 12px;
+        text-align: center;
+    }
+    .link {
+        text-align: center;
+    }
+    .preview {
+        font-size: 12px;
+    }
+    .picProject {
+        width: 300px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 300px;
+        height: 150px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 10%;
+        padding-right: 10%;
+        flex-direction: column;
+    }
+    .contactMe {
+        font-size: 20px;
+        text-align: center;
+    }
+    .email {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /* explore btn */
+    .exploreLink {
+        color: #ff3280;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .exploreLink:hover {
+        color: white;
+    }
+    .exploreBtn {
+        margin-top: 20px;
+        border: 2px #ff3280 solid;
+        padding: 1.5%;
+        border-radius: 5px;
+        width: fit-content;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        transition: ease-in 0.5s;
+    }
+    .exploreBtn:hover {
+        background-color: #ff3280;
+        transition: ease-out 0.5s;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:768px) {
+    /* intro */
+    .intro {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .namastey {
+        font-size: 20px;
+        text-align: center;
+    }
+    .myName {
+        font-size: 30px;
+        text-align: center;
+    }
+    .about {
+        font-size: 15px;
+        text-align: center;
+        padding-right: 0%;
+    }
+    .dp {
+        width: 350px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0%;
+    }
+    .photoTitle {
+        font-size: 20px;
+    }
+    .pic {
+        width: 200px;
+    }
+    /* projects */
+    .picProject {
+        width: 600px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 600px;
+        height: 300px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .contactMe {
+        font-size: 20px;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:992px) {
+    /* intro */
+    .intro {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 30px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 350px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 270px;
+    }
+    /* projects */
+    .picProject {
+        width: 810px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 810px;
+        height: 410px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:1200px) {
+    /* intro */
+    .intro {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 40px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 400px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 275px;
+    }
+    /* projects */
+    .projectTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .link {
+        margin-bottom: 1%;
+    }
+    .preview {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .picProject {
+        width: 825px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 825px;
+        height: 500px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contactMe {
+        font-size: 30px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:1366px) {
+    /* intro */
+    .intro {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 40px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 400px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 315px;
+    }
+    /* projects */
+    .projectTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .link {
+        margin-bottom: 1%;
+    }
+    .preview {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .picProject {
+        width: 940px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 940px;
+        height: 500px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contactMe {
+        font-size: 30px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:1440px) {
+    /* intro */
+    .intro {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 40px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 400px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 330px;
+    }
+    /* projects */
+    .projectTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .link {
+        margin-bottom: 1%;
+    }
+    .preview {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .picProject {
+        width: 990px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 990px;
+        height: 500px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contactMe {
+        font-size: 30px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:1536px) {
+    /* intro */
+    .intro {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 40px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 400px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 305px;
+    }
+    /* projects */
+    .projectTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .link {
+        margin-bottom: 1%;
+    }
+    .preview {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .picProject {
+        width: 920px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 920px;
+        height: 500px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 20%;
+        padding-right: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contactMe {
+        font-size: 30px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
+
+/* 
+
+ */
+
+@media(min-width:1920px) {
+    /* intro */
+    .intro {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .namastey {
+        font-size: 30px;
+        text-align: justify;
+    }
+    .myName {
+        font-size: 40px;
+        text-align: left;
+    }
+    .about {
+        padding-right: 30%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .dp {
+        width: 400px;
+    }
+    /* photography */
+    .photography {
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 5%;
+    }
+    .photoTitle {
+        font-size: 30px;
+        padding-bottom: 2%;
+        text-align: justify;
+    }
+    .photoCol {
+        display: flex;
+        flex-direction: column;
+    }
+    .photosRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .pic {
+        width: 315px;
+    }
+    /* projects */
+    .projectTitle {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .link {
+        margin-bottom: 1%;
+    }
+    .preview {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .picProject {
+        width: 945px;
+        margin-bottom: 5%;
+    }
+    .yt {
+        width: 945px;
+        height: 500px;
+    }
+    /* contact */
+    .contact {
+        padding-left: 25%;
+        padding-right: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contactMe {
+        font-size: 30px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
